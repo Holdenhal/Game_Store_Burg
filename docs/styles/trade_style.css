@@ -1,3 +1,39 @@
-body{
-    background-color: red;
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
+    padding: 20px;
+    color: white;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around; 
+    gap: 20px; 
+}
+
+
+.Hal {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+a{
+    color:white;
+}
+.top{
+    background-image: url('C:\\Users\\jackt\\.vscode\\CODING\\WDD130\\First Website\\Game_Store_Burg\\docs\\images\\Gemini_Generated_Image_eukeh5eukeh5euke.png');
+    height:80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* Main:#086788 
+
+Second:#FFCE8A 
+
+Accent 1: #DD1C1A 
+
+Accent 2: White   */
